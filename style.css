@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-titulo: "Bebas Neue", sans-serif;
+    --fonte-texto: "Dosis", sans-serif;
+    --cor1: #2c6e49ff;
+    --cor2: #4c956cff;
+    --cor3: #fefee3ff;
+    --cor4: #ffc9b9ff;
+    --cor5: #d68c45ff;
+}
