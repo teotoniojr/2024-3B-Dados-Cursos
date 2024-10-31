@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200..800&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -39,15 +39,28 @@ nav{
 nav a{
     text-decoration: none;
     color: var(--cor3);
-    margin: 0 2rem 1rem 0;
-    font-size: 1.5rem
+    margin: 0 2em 1em 0;
+    font-size: 1.5em
 }
 nav a:hover{
     text-decoration: underline;
-    font-size: 1.7rem;
+    font-size: 1.7em;
     color: var(--cor4);
     transition: 0.5s;
 }
+
+.caixa-grafico{
+    margin: 3em;
+    border: 3px double var(--cor6);
+    background-color: var(--cor3);
+}
+
+.caixa-grafico__texto{
+    padding: 2em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
 footer{
     display: flex;
     align-items: center;
@@ -57,5 +70,5 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    padding: 1rem;
+    padding: 1em;
 }

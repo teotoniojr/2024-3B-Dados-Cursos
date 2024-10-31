@@ -8,8 +8,15 @@ async function vizualizaInfo(){
     const cursoMaisVotado = cursos[0]
     const quantidadeDeVoto = Object.values(dados)[0]
 
-    console.log(cursoMaisVotado)
-    console.log(quantidadeDeVoto)
+    let paragrafo = document.createElement('p')
+
+    paragrafo.classList.add('caixa-grafico__texto')
+    
+    paragrafo.innerHTML = ` Nessa pesquisa, buscou-se compreender qual o curso de graduação mais procurado pelos jovens brasileiros que acabaram de sair do Ensino Médio. O ${cursoMaisVotado} foi o curso mais votado entre todos, com um total de ${quantidadeDeVoto} votos, em uma pesquisa que teve um total de um milhão de participantes.`
+
+    let caixa = document.getElementById('caixa-grafico')
+    caixa.appendChild(paragrafo)
+
 }
 
 vizualizaInfo()
